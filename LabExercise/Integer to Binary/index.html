@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Decimal to Binary Conversion</title>
+  </head>
+  <body>
+    <center>
+      <div class="wrapper">
+        <h1>Decimal to Binary Converter</h1>
+        <form class="form" name="form" id="form">
+          <div class="primaryTitle title">Please enter a positive integer</div>
+          <input class="posInt formEntry" id="posInt"  type="number" name="posInt" placeholder="Positive Integer">
+          <div>
+          <label for="ansInt">Positive Integer: </label>
+          <input class="ansInt formEntry" id="ansInt" type="number" name="ansInt">
+          <label for="binary">Binary Number: </label>
+          <input class="binary formEntry" id="binary" type="number" name="binary">
+          <br><br>
+          </div>
+        </form>
+      </div>
+      <br><br>
+      <button class="submit formEntry" id="ansBinary" onclick="ansBinary()">Submit</button> 
+      <script src="index.js" charset="utf-8"></script>
+    </center>
+  </body>
+</html>
